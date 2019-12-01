@@ -1,0 +1,71 @@
+.g-header {
+  width: 100%;
+}
+
+.g-header__image-area {
+  position: relative;
+}
+
+.g-header__image-area__image {
+  width: 100%;
+  height: 530px;
+  background-image: url(../images/about_mainimage01.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.g-header__image-area__title {
+  color: #fff;
+  font-size: 52px;
+  font-weight: 400;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10%;
+  text-align: center;
+  letter-spacing: 10px;
+
+  background-image: url(../images/line01_white01.png);
+  background-size: 200px 1px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+
+.g-header__image-area__title-e {
+  width: 100px;
+  height:15px;
+  background-image: url(../images/about_maintitle_ruby01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.g-header__bc-area {
+  width: 100%;
+  height:62px;
+  border-bottom: 1px solid #a7a7a7;
+  margin-bottom: 70px;
+}
+
+.g-header__bc-area__contents-area {
+  margin: 0 auto 0 auto;
+  max-width: 1060px;
+  font-size: 14px;
+  line-height: 62px;
+  color: #272727;
+}
+
+
+.g-header__bc-area__current {
+  display: inline;
+}
+.g-header__bc-area__current:before {
+  content:">";
+  margin: 0 5px 0 5px;
+}
+

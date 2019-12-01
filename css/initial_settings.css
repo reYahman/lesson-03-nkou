@@ -1,0 +1,11 @@
+:root {
+  --main-color: #1f286f;
+}
+
+* {
+  padding: 0 0;
+  margin: 0 0;
+  color: inherit;
+  box-sizing: border-box;
+  text-decoration: none;
+}

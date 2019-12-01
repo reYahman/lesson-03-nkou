@@ -1,0 +1,56 @@
+.l-nav {
+  width: 100%;
+  background-color: #181836;
+  position: relative;
+}
+
+.l-nav__items {
+  margin:0 auto 0 auto;
+  max-width: 1060px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.l-nav__items:after {
+  /* 吹き出しの三角。上の対応するg-navとぴったりいかない */
+  content: "";
+  position: absolute;
+  top: -18px;
+  left: 7%;
+  /* margin-left: -15px; */
+  border: 9px solid transparent;
+  border-bottom: 15px solid #181836;
+}
+
+.l-nav__item {
+  display: inline-block;
+  margin: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.l-nav__item:nth-child(n+2):before {
+  content: "";
+  display: inline-block;
+  margin-right: 15px;
+  width: 10px;
+  height: 16px;
+  vertical-align: middle;
+  background-image: url(../images/icon_backslash01_black01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.l-nav__link {
+  color: #fff;
+}
+
+.l-nav__link:hover {
+  background-color: #fff;
+  color: var(--main-color);
+}
+

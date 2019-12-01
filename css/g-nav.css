@@ -1,0 +1,250 @@
+.g-nav {
+  width: 100%;
+}
+
+.g-nav__top {
+  background-color: #f7f7f7;
+  height: 32px;
+  font-size: 12px;
+  line-height: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g-nav__top__contents-area {
+  height:100%;
+  margin: auto 0;
+  flex-basis: 1060px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color:#272727;
+  font-weight: 400;
+}
+
+.g-nav__top__text {
+  height:100%;
+  margin-right: auto;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.g-nav__top__items {
+  display:flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.g-nav__top__c-link {
+  height: auto;
+  color: #676767;
+  padding: 0 10px 0 10px;
+}
+
+.g-nav__top__child-item {
+  border-right: 1px solid #676767;
+}
+
+.g-nav__top__child-item:last-child {
+  border-right: none;
+}
+
+
+.g-nav__top__login{
+  height:100%;
+  background-color: #d9d9d9;
+  padding: 0 10px 0 10px;
+  display: flex;
+  align-items: center;
+  color: var(--main-color);
+  background-image: url(../images/);
+  margin-left:10px;
+}
+
+.g-nav__top__login:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 20px;
+  background-image: url(../images/icon_site_mark01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-right: 3px;
+}
+
+.g-nav__main {
+  margin: 0 auto;
+  max-width: 1060px;
+}
+
+.g-nav__main__n-and-ci {
+  display: flex;
+  justify-content: flex-end;
+  height:93px;
+  align-items: center;
+}
+
+.g-nav__main__home {
+  margin-right: auto;
+}
+
+.g-nav__main__main-logo {
+  width: 211px;
+  height: 45px;
+}
+
+.g-nav__main__tel-ns{
+  width: 220px;
+  height: 47px;
+}
+.g-nav__main__tel-n {
+  width: 210px;
+  height: 28px;
+}
+.g-nav__main__rt {
+  font-size: 11px;
+  line-height: 15px;
+  color:#8d959c;
+  text-align: center;
+}
+
+.g-nav__main__sns-links {
+  width: 130px;
+  height: 48px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.g-nav__main__sns-link {
+  display: flex;
+  align-items: center;
+}
+
+.g-nav__main__sns-icon {
+  margin: 0 7px 0 7px;
+}
+
+.g-nav__main__menu {
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.g-nav__main__menu__items {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: auto;
+}
+
+.g-nav__main__menu__item {
+  width: 158px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  border-left: 1px solid #bec1c4;
+}
+
+.g-nav__main__menu__item--last {
+  border-right: 1px solid #bec1c4;
+}
+
+.g-nav__main__menu__link {
+  display: block;
+  color: #272727;
+}
+
+.g-nav__main__menu__link:hover,
+.g-nav__main__menu__link--current {
+  color: var(--main-color);
+}
+
+
+
+.g-nav__main__menu__btn {
+  display: block;
+  width: 170px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+  margin-right: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.g-nav__main__menu__btn:after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 13px;
+  background-image: url(../images/icon_arrow01_right_blue01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 32%;
+  right: 5px;
+}
+
+.g-nav__main__menu__btn:hover {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.g-nav__main__menu__btn:hover:after {
+  content: "";
+  display: inline-block;
+  width: 7px;
+  height: 13px;
+  background-image: url(../images/icon_arrow01_right_white01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 32%;
+  right: 5px;
+}
+
+.g-nav__main__menu__btn:last-child {
+  margin-right: 0;
+}
+
+.g-nav__main__menu__png {
+  height: 10px;
+  margin: 0 auto 0 auto ;
+  background-image:url(../images/global_nav_btn01_01.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-positionを変えると何故か画像の切り抜き位置が変わる。ラッキー。 */
+  background-position: center middle;
+}
+
+.g-nav__main__menu__png--about {
+  width: 76px;
+  background-image: url(../images/global_nav_btn01_01.png);
+}
+.g-nav__main__menu__png--net {
+  width: 62px;
+  background-image: url(../images/global_nav_btn01_02.png);
+}
+.g-nav__main__menu__png--commute {
+  width: 96px;
+  background-image: url(../images/global_nav_btn01_03.png);
+}
+.g-nav__main__menu__png--alliance {
+  width: 90px;
+  background-image: url(../images/global_nav_btn01_04.png);
+}
+
+/* ここはマルチクラスを使用してしまった */
+.g-nav__main__menu__link:hover .g-nav__main__menu__png,
+.g-nav__main__menu__link--current .g-nav__main__menu__png {
+  background-position: center bottom;
+}
