@@ -213,6 +213,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-bottom:20px;
 }
 
 .footer__nav__h-nav {
@@ -230,6 +231,134 @@
 
 .footer__nav__h-nav__to-top {
   margin-left: auto;
+}
+
+.footer__nav__v-navs {
+  max-width: 1040px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.footer__nav__v-navs__unit {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 191px;
+}
+
+.footer__nav__v-navs__title-link {
+  display: block;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #006;
+}
+
+.footer__nav__v-navs__title-link--margin-top {
+  margin-top: 24px;
+}
+
+.footer__nav__v-navs__title-link__small {
+  font-size: 11px;
+  line-height: 17px;
+  color: #006;
+}
+
+.footer__nav__v-nav__link {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 3px 0 3px 0;
+  color: #272727;
+}
+
+.footer__nav__v-nav__link--border-bottom {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.footer__nav__v-nav__link--margin-top {
+  margin-top: 15px;
+}
+
+.footer__sns__area {
+  max-width: 1040px;
+  margin: 0 auto 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.footer__sns__not-sns {
+  margin-right: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #272727;
+}
+
+.footer__sns__not-sns__link:nth-child(2){
+  margin-left: 10px;
+}
+
+.footer__sns__sns-link:after {
+  content: ">";
+  font-size: 12px;
+  color: #c9c9c9;
+  margin-left: 10px;
+}
+
+.footer__sns__sns-link {
+  height: 48px;
+  border-left: 1px solid #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.footer__sns__sns-link:first-of-type {
+  border: none;
+}
+
+.footer__sns__sns-link-descri {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 14px;
+  color: #878787;
+  font-weight: 400;
+}
+
+.footer__sns__sns-link-pic {
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer__copyrights {
+  width: 100%;
+  background-color: #1a1a1a;
+}
+
+.footer__copyrights__contents-area {
+  margin: 0 auto 30px auto;
+  padding: 15px 0 15px 0;
+  max-width: 1040px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  line-height: 15px;
+  color: #999999;
 }
 
 
