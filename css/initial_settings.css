@@ -1,3 +1,23 @@
+@charset "utf-8";
+
+/* ====================================================================
+ 基本設定
+==================================================================== */
+
+/* フォントの読み込み
+----------------------------------------------------------*/
+
+
+@font-face {
+    font-family: "AxisStd-Light";
+    src: url("../fonts/ca94208f-21dd-4dc8-ab7c-057d8dbfcccb.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "AxisStd-Regular";
+    src: url("../fonts/d226afef-6536-4b18-9b28-defffcc4baae.woff2") format("woff2");
+}
+
 :root {
   --main-color: #1f286f;
 }

@@ -1,6 +1,7 @@
 .main-article {
     width: 100%;
     padding-top: 80px;
+    font-family: "AxisStd-Light";
 }
 
 .main-article {
@@ -12,6 +13,7 @@
 }
 
 .main-article__title {
+  font-family: "AxisStd-Regular";
   margin: 0 auto 30px auto;
   max-width: 1040px;
   background-image: url(../images/line01_black01.png);
@@ -24,8 +26,8 @@
   color: #272727;
 }
 
-.main-article__overview {
-  margin: 0 auto 50px auto;
+.main-article__ov{
+  margin: 0 auto 80px auto;
   max-width: 1040px;
   text-align: center;
   font-size: 16px;
@@ -76,6 +78,7 @@
 
 
 .main-article__text__ov {
+  font-family: "AxisStd-Regular";
   font-size: 22px;
   line-height: 40px;
   color: #272727;
@@ -128,6 +131,7 @@
 }
 
 .main-article__message {
+  font-family: "AxisStd-Light";
   background-color: #f7f7f7;
 }
 

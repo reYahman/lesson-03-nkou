@@ -1,9 +1,11 @@
 .intro {
   margin: 0 auto 0 auto;
   max-width: 1060px;
+  font-family: "AxisStd-Regular";
 }
 
 .intro__title {
+  font-family: "AxisStd-Light";
   text-align: center;
   font-size: 33px;
   font-weight: 400;
@@ -29,6 +31,7 @@
 }
 
 .intro__description {
+  font-family: "AxisStd-Light";
   margin: 0 auto 60px auto;
   max-width:640px;
   font-size: 16px;
@@ -74,6 +77,7 @@
 }
 
 .intro__sub-descrip__def {
+  font-family: "AxisStd-Light";
   margin-left: 100px;
   font-size: 19px;
   line-height: 43px;
@@ -106,6 +110,7 @@
 }
 
 .intro__n-st__texts {
+  font-family: "AxisStd-Light";
   max-width: 424px;
   color: #272727;
 }
@@ -155,6 +160,7 @@
 }
 
 .intro__sub-descrip__text {
+  font-family: "AxisStd-Light";
   font-size: 16px;
   line-height: 29px;
   color: #272727;
@@ -162,6 +168,7 @@
 }
 
 .intro__sub-descrip__comment {
+  font-family: "AxisStd-Light";
   font-size: 12px;
   line-height: 22px;
 }

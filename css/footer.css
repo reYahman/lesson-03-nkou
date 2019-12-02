@@ -1,6 +1,7 @@
 .footer__contact-area {
   background-image: url(../images/footer02_bg01.png);
   padding: 50px 0 50px 0;
+  font-family: "AxisStd-Regular"
 }
 
 
@@ -141,7 +142,9 @@
   text-align: center;
   font-size: 16px;
   line-height: 22px;
+  font-weight: 700;
   color: #000;
+  font-family: "AxisStd-Light"
 }
 
 .footer__other-school-links {
@@ -149,6 +152,7 @@
   margin: 0 auto 30px auto;
   display: flex;
   justify-content: space-between;
+  font-family: "AxisStd-Light"
 }
 
 .footer__other-school-link__bi {
@@ -204,6 +208,7 @@
 
 .footer__nav__area {
   background-color: #f7f7f7;
+  font-family: "AxisStd-Light"
 }
 
 .footer__nav__h-navs {
@@ -223,6 +228,8 @@
   line-height: 16px;
   color: #006;
   height:16px;
+  font-family: "AxisStd-Regular";
+  font-weight: 700;
 }
 
 .footer__nav__h-nav:first-child {
@@ -251,6 +258,7 @@
 }
 
 .footer__nav__v-navs__title-link {
+  font-family: "AxisStd-Regular";
   display: block;
   font-size: 16px;
   line-height: 22px;
@@ -266,6 +274,7 @@
   font-size: 11px;
   line-height: 17px;
   color: #006;
+  font-weight: 400;
 }
 
 .footer__nav__v-nav__link {
@@ -348,6 +357,7 @@
 .footer__copyrights {
   width: 100%;
   background-color: #1a1a1a;
+  font-family: "AxisStd-Regular";
 }
 
 .footer__copyrights__contents-area {
