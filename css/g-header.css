@@ -52,7 +52,9 @@
   border-bottom: 1px solid #a7a7a7;
   margin-bottom: 70px;
 }
-
+.g-header__bc-area__link:hover {
+  text-decoration: underline;
+}
 .g-header__bc-area__contents-area {
   margin: 0 auto 0 auto;
   max-width: 1060px;

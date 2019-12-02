@@ -132,6 +132,10 @@
   right: 10%;
 }
 
+.footer__contact__from-web-btn:hover {
+  text-decoration: underline;
+}
+
 .footer__other-school-links__area {
   padding: 50px 0 50px 0;
 }
@@ -236,8 +240,16 @@
   border: none;
 }
 
+.footer__nav__h-nav:hover {
+  text-decoration: underline;
+}
+
 .footer__nav__h-nav__to-top {
   margin-left: auto;
+}
+
+.footer__nav__h-nav__to-top:hover {
+  opacity: 0.7;
 }
 
 .footer__nav__v-navs {
@@ -266,6 +278,10 @@
   color: #006;
 }
 
+.footer__nav__v-navs__title-link:hover {
+  text-decoration: underline;
+}
+
 .footer__nav__v-navs__title-link--margin-top {
   margin-top: 24px;
 }
@@ -284,6 +300,10 @@
   line-height: 20px;
   margin: 3px 0 3px 0;
   color: #272727;
+}
+
+.footer__nav__v-nav__link:hover {
+  text-decoration: underline;
 }
 
 .footer__nav__v-nav__link--border-bottom {
@@ -337,6 +357,10 @@
 
 .footer__sns__sns-link:first-of-type {
   border: none;
+}
+
+.footer__sns__sns-link:hover {
+  background-color: #c9c9c9;
 }
 
 .footer__sns__sns-link-descri {
