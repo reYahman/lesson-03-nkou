@@ -139,7 +139,7 @@
 }
 
 .main-article__message__contents-area {
-  margin: 0 auto 50px auto;
+  margin: 0 auto 0 auto;
   padding: 50px 0 50px 0;
   max-width: 1060px;
   display: flex;
